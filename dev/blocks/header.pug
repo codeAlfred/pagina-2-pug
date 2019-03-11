@@ -1,0 +1,12 @@
+header.header
+    .container.container-flex
+        .logo
+            a(href="/") /
+            a(href="/") GrupoAxis
+        .menu
+            nav.nav
+                ul.menu-list
+                    each list in paginas
+                        li: a(href=list+".html") #{list}
+                    
+    
