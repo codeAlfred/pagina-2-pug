@@ -1,12 +1,17 @@
 header.header
     .container.container-flex
         .logo
-            a(href="/") /
-            a(href="/") GrupoAxis
+            a.logo-item(href="/") /
+            a.logo-nombre(href="/") 
+                spam.c1 Grupo
+                spam.c2 Axis
         .menu
             nav.nav
                 ul.menu-list
                     each list in paginas
-                        li: a(href=list+".html") #{list}
+                        if list === "Inicio"
+                            li: a(href="/") #{list}
+                        else
+                            li: a(href=list+".html") #{list}
                     
     

@@ -1,0 +1,48 @@
+.header{
+    background: #ccc;
+}
+.logo{
+    padding: 10px 10px;
+    & a{
+        
+        text-decoration: none;
+        color: green;
+        font-size: 2em;
+        
+    }
+    & .logo-item {
+        background: $c_btn;
+        color: white;
+        padding: 0 14px;
+    }
+    & .logo-item:hover{
+        opacity: .3;
+        
+    }
+}
+.c1{
+    color: $color_1;
+}
+.c2{
+    
+}
+
+
+.menu-list{
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    & li{
+        padding: 4px 10px;
+      
+    }   
+    & a{
+        text-decoration: none;
+        color: green;
+    }
+    & a:hover{
+        color: $color_1;
+    }
+    
+}

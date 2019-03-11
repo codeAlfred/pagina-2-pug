@@ -1,0 +1,20 @@
+*{
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    font-family: sans-serif;
+}
+.container{
+    margin: auto;
+    width: 80%;
+}
+.container-flex{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+@import "blocks/configuracion.scss";
+@import "blocks/header.scss";
+@import "blocks/banner.scss";
