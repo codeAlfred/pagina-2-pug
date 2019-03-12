@@ -1,0 +1,47 @@
+/*------------------estilos de CONTACTO------------------*/
+.contacto {
+    margin-bottom: 70px;
+}
+.contacto-titulo{
+    font-size: 1.3em;
+    color: $c_texto;
+    margin-bottom: 35px;
+}
+.contacto-formulario{
+    
+}
+.contacto-datos {
+    
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px 35px;
+    justify-content: space-around;
+    & .contacto-datos-direccion, .contacto-datos-telefono{
+        padding: 0 40px 0 0;
+        color:  $c_texto;
+        & h3 {
+            margin-bottom: 20px;
+        }
+        & p{
+            padding: 0;
+            margin: 0;
+        }
+    }
+}
+
+.form-contact{
+    padding: 0 15px;
+    
+    & .form-inputs{
+        width: 100%;
+        padding: 10px 5px;
+        margin: 5px 0;
+    }
+}
+.btn-envio{
+    color: white;
+    background: $color_1;
+    font-size: 1em;
+    padding: 5px 15px;
+    
+}

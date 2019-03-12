@@ -9,4 +9,29 @@ block append bannerSecundario
         h1.nosotros-titulo CONTACTO
 
 block contenido
-    section
+    section.contacto
+        .container
+            .contacto-titulo 
+                h1 Grupo Axis
+            .container-flex
+                .contacto-formulario.column-50
+                    form.form-contact#form-contact
+                        input.form-inputs(type="text" placeholder="Name*" required)
+                        input.form-inputs(type="email" placeholder="Email*" required)
+                        input.form-inputs(type="text" placeholder="Subject*" required)
+                        textarea.form-inputs(placeholder="Message" cols="30" rows="10")
+                        input.btn-envio(type="submit" value="Enviar")
+                .contacto-datos.column-50
+                    .contacto-datos-direccion
+                        h3 Nuestra dirección
+                        p Av. La Marina 122,
+                        p Lima - Perú
+                        p Email: info@correo.com
+                    .contacto-datos-telefono
+                        h3 Llamanos
+                        p Tel: 987-654-321
+                        p Fax: 159-357-852
+                        p 1-800-000-2000
+
+            
+            
