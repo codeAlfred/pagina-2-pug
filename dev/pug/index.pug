@@ -1,2 +1,63 @@
 extends ../template/template.pug
 
+block contenido
+    section.inicio-servicios#ini-servicios
+        .container.container-flex
+            .imagen-pastel.column-50 
+                img(src="img/pastel.png")
+            .contenido-descriptivo.column-50
+                h1 SERVICIOS
+                p En este espacios se agregara el contenido resumido de los servicios que brinda tu empresa. Asi los usuarios podran saber a que se dedica tu empresa...
+                a(href="#") Saber más
+    
+    section.inicio-equipo#ini-equipo
+        .container.container-flex            
+            .contenido-descriptivo.column-50
+                h1 EQUIPO
+                p En este espacios se agregara el contenido resumido de caracteristicas esenciales de tu equipo de trabajo. Asi los usuarios podran saber a que se dedica tu empresa...
+                a(href="#") Saber más
+            .imagen-pastel.column-50 
+                img(src="img/oficina.png")
+                
+    section.inicio-clientes#ini-clientes
+        .container           
+            .contenido-descriptivo
+                h1 CLIENTES
+            .contenido-clientes
+                ul
+                    each item in clientes
+                        li: a(href="#") #{item}
+            .contenido-descriptivo2            
+                a(href="#") Saber más
+                    
+    section.inicio-prensa#ini-prensa
+        .container           
+            .contenido-descriptivo
+                h1 PRENSA
+            .container-flex 
+                .column-33
+                    img(src="img/prensa1.jpeg")
+                    .prensa-contenido
+                        a(href="#") Encuentros Modernos
+                        .prensa-comentario.container-flex
+                            p.item &#128065; 5                         
+                                a(href="#") Escribir un comentario
+                                p.item &#127892;
+                .column-33
+                    img(src="img/prensa2.jpeg")
+                    .prensa-contenido
+                        a(href="#") Encuentros Modernos
+                        .prensa-comentario.container-flex
+                            p.item &#128065; 6                         
+                                a(href="#") Escribir un comentario
+                                p.item &#127892;
+                .column-33
+                    img(src="img/prensa3.jpeg")
+                    .prensa-contenido
+                        a(href="#") Encuentros Modernos
+                        .prensa-comentario.container-flex
+                            p.item &#128065; 3                         
+                                a(href="#") Escribir un comentario
+                                p.item &#127892;
+                        
+                    

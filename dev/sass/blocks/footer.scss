@@ -1,0 +1,16 @@
+.footer{
+    background: $c_extremos;    
+    padding: 45px 0;
+    & p{
+        font-size: 0.8em;
+    }
+}
+
+.social{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    font-size: 2em;
+        
+}
+    

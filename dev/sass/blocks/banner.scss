@@ -1,0 +1,46 @@
+// *-----------------------estilos del banner---------------------
+.banner{
+    background:url('../img/banner1.jpeg') ;
+    background-color: rgba(0,0,100,.5);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;    
+    height: 700px;
+    display: flex;
+    flex-direction: column;    
+ 
+    & .banner-title, .banner-subtitle{        
+        
+        text-align: center;
+        margin: 10px;
+        padding: 5px;
+    }
+    & h1{
+        color: white;
+        font-size: 6em;
+           
+        
+    }
+    & h4{
+        color: white;
+        font-size: 2.1em;
+    }
+    & a{
+        color: white;
+        text-decoration: none;
+        padding: 10px 55px;
+        margin: 20px;
+        background: $c_btn;
+        font-size: 1.5em;
+        &:hover{
+            background: $color_1;
+        }
+        
+    }
+    & .banner-btn{        
+        text-align: center;
+        
+       
+    }
+    
+}

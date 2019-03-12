@@ -7,15 +7,25 @@ body {
 
 .container {
   margin: auto;
-  width: 80%; }
+  width: 75%; }
 
 .container-flex {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between; }
 
+img {
+  display: block;
+  width: 100%;
+  max-width: 100%; }
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0; }
+
 .header {
-  background: #ccc; }
+  background: #ccc;
+  position: fixed;
+  width: 100%; }
 
 .logo {
   padding: 10px 10px; }
@@ -45,3 +55,133 @@ body {
     color: green; }
   .menu-list a:hover {
     color: #3B58B8; }
+
+.banner {
+  background: url("../img/banner1.jpeg");
+  background-color: rgba(0, 0, 100, 0.5);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 700px;
+  display: flex;
+  flex-direction: column; }
+  .banner .banner-title, .banner .banner-subtitle {
+    text-align: center;
+    margin: 10px;
+    padding: 5px; }
+  .banner h1 {
+    color: white;
+    font-size: 6em; }
+  .banner h4 {
+    color: white;
+    font-size: 2.1em; }
+  .banner a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 55px;
+    margin: 20px;
+    background: #f16876;
+    font-size: 1.5em; }
+    .banner a:hover {
+      background: #3B58B8; }
+  .banner .banner-btn {
+    text-align: center; }
+
+.inicio-servicios, .inicio-equipo, .inicio-clientes {
+  margin-top: 60px;
+  padding-top: 55px;
+  padding-bottom: 55px; }
+
+.column-50 {
+  width: 50%; }
+
+.contenido-descriptivo {
+  padding: 10px 100px 10px 30px; }
+  .contenido-descriptivo h1 {
+    margin-top: 20px; }
+  .contenido-descriptivo p {
+    margin-top: 20px;
+    margin-bottom: 50px;
+    text-align: justify; }
+  .contenido-descriptivo a {
+    margin-top: 40px;
+    text-decoration: none;
+    color: white;
+    background: #f16876;
+    padding: 8px 30px;
+    font-size: 1.3em; }
+
+.inicio-equipo, .inicio-prensa {
+  background: #CDDAE8; }
+
+.contenido-clientes ul {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-bottom: 80px;
+  margin-top: 70px; }
+
+.contenido-clientes a {
+  text-decoration: none;
+  font-size: 2.5em;
+  color: #333; }
+
+.inicio-prensa .container {
+  margin-top: 100px;
+  padding: 40px 0 60px 0; }
+
+.contenido-descriptivo2 a {
+  text-decoration: none;
+  color: white;
+  background: #f16876;
+  padding: 8px 30px;
+  font-size: 1.3em; }
+
+.column-33 {
+  background: white;
+  width: 30%;
+  margin: 8px; }
+  .column-33 img {
+    height: 200px;
+    object-fit: cover; }
+
+.prensa-contenido {
+  padding: 11px 20px;
+  margin-top: 20px; }
+  .prensa-contenido a {
+    margin-top: 20px;
+    padding: 15px;
+    text-decoration: none;
+    color: #333; }
+
+.prensa-comentario {
+  margin-top: 45px;
+  border-top: 1px solid #666; }
+
+.contactenos {
+  border-top: 1px solid #999;
+  border-bottom: 1px solid #999; }
+  .contactenos .container {
+    padding: 90px 0;
+    display: flex;
+    align-items: center; }
+
+.contactenos-btn a {
+  text-decoration: none;
+  color: white;
+  background: #f16876;
+  padding: 20px 70px;
+  margin-left: 70px; }
+
+.footer {
+  background: #ccc;
+  padding: 45px 0; }
+  .footer p {
+    font-size: 0.8em; }
+
+.social {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  font-size: 2em; }

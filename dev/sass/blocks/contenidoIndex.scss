@@ -1,0 +1,93 @@
+.inicio-servicios, .inicio-equipo, .inicio-clientes{
+    margin-top: 60px;
+    padding-top: 55px;
+    padding-bottom: 55px;
+}
+.column-50{
+    width: 50%;
+}
+.contenido-descriptivo{
+    padding:10px 100px 10px 30px;
+    & h1{
+        margin-top: 20px;
+    }
+    & p{
+        margin-top: 20px;
+        margin-bottom: 50px;
+        text-align: justify;
+    }
+    & a{
+        margin-top: 40px;
+        text-decoration: none;
+        color: white;
+        background: $c_btn;
+        padding: 8px 30px;
+        font-size: 1.3em;
+    }
+}
+.inicio-equipo, .inicio-prensa{
+    background: $c_fondo;
+}
+.contenido-clientes{
+    & ul{
+        list-style: none;        
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;        
+        margin-bottom: 80px;
+        margin-top: 70px;
+    }
+    & a{
+        text-decoration: none;
+        font-size: 2.5em;
+        color: #333;
+        
+        
+    }
+   
+}
+.inicio-prensa {
+    & .container{
+        margin-top: 100px;
+        padding: 40px 0 60px 0;
+    }
+}
+.contenido-descriptivo2 {
+        & a{
+            
+            text-decoration: none;
+            color: white;
+            background: $c_btn;
+            padding: 8px 30px;
+            font-size: 1.3em;
+        }
+        
+    }  
+.column-33{
+    background: white;
+    width: 30%;
+    margin: 8px;
+    & img{
+        height: 200px;
+        object-fit: cover;
+    }
+    
+    
+}
+.prensa-contenido{
+    padding: 11px 20px;
+    margin-top: 20px;
+       
+    & a{
+        margin-top: 20px;
+        padding: 15px;
+        text-decoration: none;
+        color: #333;
+       
+    }
+}
+.prensa-comentario {
+    margin-top: 45px;
+    border-top: 1px solid #666;    
+  
+}
