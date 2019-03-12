@@ -282,3 +282,51 @@ h1, h2, h3, h4, h5, h6 {
   .serviciosT p {
     color: #555;
     padding: 5px 10px; }
+
+/*-------------------estilos de NOVEDADES-------------------*/
+a {
+  text-decoration: none; }
+
+.novedad {
+  border: 1px solid #555;
+  margin-bottom: 35px; }
+
+.comlumn-50 {
+  width: 50%; }
+
+.novedad-imagen img {
+  height: 100%;
+  object-fit: cover; }
+
+.novedad-contenido {
+  padding: 30px; }
+  .novedad-contenido img {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    color: #555; }
+
+.novedad-contenido-encabezado {
+  display: flex;
+  flex-wrap: wrap; }
+  .novedad-contenido-encabezado p {
+    padding: 3px 0 0 10px;
+    margin: 0;
+    color: #555; }
+
+.novedad-contenido-contenido {
+  padding-top: 10px; }
+  .novedad-contenido-contenido a {
+    color: #555;
+    font-size: 1.5em; }
+    .novedad-contenido-contenido a:hover {
+      color: #3B58B8; }
+  .novedad-contenido-contenido p {
+    color: #555; }
+
+.item-comentario {
+  border-top: 1px solid #555;
+  padding-top: 15px; }
+  .item-comentario a {
+    font-size: 1em;
+    padding: 0 15px; }

@@ -1,0 +1,66 @@
+/*-------------------estilos de NOVEDADES-------------------*/
+a{
+    text-decoration: none;
+}
+.novedad{
+    border: 1px solid $c_texto;
+    margin-bottom: 35px;
+}
+.comlumn-50{
+    
+    width: 50%;
+}
+.novedad-imagen{
+   
+    & img {
+        height: 100%;
+        object-fit: cover;
+    }
+}
+.novedad-contenido {
+    
+    padding: 30px;
+    
+    & img{
+        
+        border-radius: 50%;
+        width: 50px;
+        height: 50px;
+        color: $c_texto;
+    }
+    
+}
+.novedad-contenido-encabezado{
+        
+        display: flex;
+        flex-wrap: wrap;
+       
+    & p{ 
+        padding: 3px 0 0 10px;
+        margin: 0;
+        color: $c_texto;
+    }
+}
+.novedad-contenido-contenido{
+    
+    padding-top: 10px;
+    
+    & a{
+        color: $c_texto;
+        font-size: 1.5em;
+        &:hover{
+            color: $color_1;
+        }
+    }
+    & p{
+        color: $c_texto;
+    }
+}
+.item-comentario {
+    border-top: 1px solid $c_texto;
+    padding-top: 15px;
+    & a{
+        font-size: 1em;
+        padding: 0 15px;
+    }
+}
