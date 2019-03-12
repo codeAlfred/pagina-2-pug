@@ -1,0 +1,60 @@
+/*-------------------estilos de NOSOTROS--------------------*/
+.nosotros-titulo{
+    position: relative;
+    z-index: 2;
+    top: -250px;
+    color: white;
+    letter-spacing: 2px;
+    font-size: 3.5em;
+}
+.nosotros{
+    padding: 70px 0;
+    
+}
+.nosotros-contenido{
+    width: 50%;
+    padding-left: 50px;
+    & h1{
+        font-size: 2.5em;
+        letter-spacing: 2px;
+    }
+}
+.equipo {
+    padding: 70px 0;
+    background: $c_fondo;
+    & h1{
+        font-size: 2.5em;
+        letter-spacing: 2px;
+    }
+}
+.equipo-persona{
+    padding: 45px 0;
+    width: 45%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    & img{
+        width: 85px;
+        height: 85px;
+        object-fit: cover;
+        
+    }    
+}
+.datos-persona{
+        padding-top: 25px;
+    
+    & a{
+        text-decoration: none;
+        color: $color_1;
+    }
+    & spam{
+        color: $color_1;
+    }
+}
+
+
+
+
+
+
+

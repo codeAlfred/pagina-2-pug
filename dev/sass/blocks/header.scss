@@ -1,7 +1,9 @@
+/*----------------------estilos del header----------------------*/
 .header{
     background: $c_extremos;
     position: fixed;
     width: 100%;
+    z-index: 100;
 }
 .logo{
     padding: 10px 10px;

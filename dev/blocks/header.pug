@@ -9,7 +9,7 @@ header.header
             nav.nav
                 ul.menu-list
                     each list in paginas
-                        if list === "Inicio"
+                        if list === "inicio"
                             li: a(href="/") #{list}
                         else
                             li: a(href=list+".html") #{list}

@@ -11,8 +11,12 @@ html
     body
         block header
             include ../blocks/header.pug
-        block banner
-            include ../blocks/banner.pug
+        block bannerPrincipal
+            if pagina_actual === "inicio"
+                include ../blocks/banner.pug
+        block bannerSecundario
+            if pagina_actual !== "inicio"
+                img.banner-secundario(src="img/"+pagina_actual+".jpeg")
             
         block contenido
         

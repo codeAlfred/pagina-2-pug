@@ -22,10 +22,12 @@ img {
 h1, h2, h3, h4, h5, h6 {
   margin: 0; }
 
+/*----------------------estilos del header----------------------*/
 .header {
   background: #ccc;
   position: fixed;
-  width: 100%; }
+  width: 100%;
+  z-index: 100; }
 
 .logo {
   padding: 10px 10px; }
@@ -56,6 +58,7 @@ h1, h2, h3, h4, h5, h6 {
   .menu-list a:hover {
     color: #3B58B8; }
 
+/* -----------------------estilos del banner---------------------*/
 .banner {
   background: url("../img/banner1.jpeg");
   background-color: rgba(0, 0, 100, 0.5);
@@ -87,6 +90,15 @@ h1, h2, h3, h4, h5, h6 {
   .banner .banner-btn {
     text-align: center; }
 
+/*-------estilos baner secundario--------*/
+.banner-secundario {
+  position: relative;
+  z-index: -1;
+  height: 450px;
+  object-fit: cover;
+  opacity: .7; }
+
+/*-----------------------estilos del INDEX----------------------*/
 .inicio-servicios, .inicio-equipo, .inicio-clientes {
   margin-top: 60px;
   padding-top: 55px;
@@ -110,6 +122,8 @@ h1, h2, h3, h4, h5, h6 {
     background: #f16876;
     padding: 8px 30px;
     font-size: 1.3em; }
+    .contenido-descriptivo a:hover {
+      opacity: .5; }
 
 .inicio-equipo, .inicio-prensa {
   background: #CDDAE8; }
@@ -125,7 +139,12 @@ h1, h2, h3, h4, h5, h6 {
 .contenido-clientes a {
   text-decoration: none;
   font-size: 2.5em;
-  color: #333; }
+  color: #333;
+  transition: all 0.5s; }
+  .contenido-clientes a:hover {
+    opacity: .9;
+    color: antiquewhite;
+    font-size: 2.8em; }
 
 .inicio-prensa .container {
   margin-top: 100px;
@@ -137,6 +156,8 @@ h1, h2, h3, h4, h5, h6 {
   background: #f16876;
   padding: 8px 30px;
   font-size: 1.3em; }
+  .contenido-descriptivo2 a:hover {
+    opacity: .5; }
 
 .column-33 {
   background: white;
@@ -159,6 +180,7 @@ h1, h2, h3, h4, h5, h6 {
   margin-top: 45px;
   border-top: 1px solid #666; }
 
+/*---------------estilo de seccion contactenos----------------*/
 .contactenos {
   border-top: 1px solid #999;
   border-bottom: 1px solid #999; }
@@ -173,7 +195,10 @@ h1, h2, h3, h4, h5, h6 {
   background: #f16876;
   padding: 20px 70px;
   margin-left: 70px; }
+  .contactenos-btn a:hover {
+    opacity: .5; }
 
+/*-----------------------estilos de footer-----------------------*/
 .footer {
   background: #ccc;
   padding: 45px 0; }
@@ -185,3 +210,48 @@ h1, h2, h3, h4, h5, h6 {
   flex-wrap: wrap;
   justify-content: space-around;
   font-size: 2em; }
+
+/*-------------------estilos de NOSOTROS--------------------*/
+.nosotros-titulo {
+  position: relative;
+  z-index: 2;
+  top: -250px;
+  color: white;
+  letter-spacing: 2px;
+  font-size: 3.5em; }
+
+.nosotros {
+  padding: 70px 0; }
+
+.nosotros-contenido {
+  width: 50%;
+  padding-left: 50px; }
+  .nosotros-contenido h1 {
+    font-size: 2.5em;
+    letter-spacing: 2px; }
+
+.equipo {
+  padding: 70px 0;
+  background: #CDDAE8; }
+  .equipo h1 {
+    font-size: 2.5em;
+    letter-spacing: 2px; }
+
+.equipo-persona {
+  padding: 45px 0;
+  width: 45%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around; }
+  .equipo-persona img {
+    width: 85px;
+    height: 85px;
+    object-fit: cover; }
+
+.datos-persona {
+  padding-top: 25px; }
+  .datos-persona a {
+    text-decoration: none;
+    color: #3B58B8; }
+  .datos-persona spam {
+    color: #3B58B8; }

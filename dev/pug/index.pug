@@ -1,5 +1,8 @@
 extends ../template/template.pug
 
+block append config
+    -pagina_actual="inicio";
+
 block contenido
     section.inicio-servicios#ini-servicios
         .container.container-flex
@@ -46,7 +49,7 @@ block contenido
                 .column-33
                     img(src="img/prensa2.jpeg")
                     .prensa-contenido
-                        a(href="#") Encuentros Modernos
+                        a(href="#") Balance mensual
                         .prensa-comentario.container-flex
                             p.item &#128065; 6                         
                                 a(href="#") Escribir un comentario
@@ -54,7 +57,7 @@ block contenido
                 .column-33
                     img(src="img/prensa3.jpeg")
                     .prensa-contenido
-                        a(href="#") Encuentros Modernos
+                        a(href="#") Análisis del primer trimestre
                         .prensa-comentario.container-flex
                             p.item &#128065; 3                         
                                 a(href="#") Escribir un comentario
