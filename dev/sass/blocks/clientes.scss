@@ -1,0 +1,16 @@
+/*-------------------estilos de CLIENTES-------------------*/
+.clientes {
+    
+    margin: 25px 0;
+    margin-bottom: 35px;
+    color: $c_texto;
+    
+    & p{
+        padding-bottom: 35px;
+        padding-right: 35px;
+        
+    }
+}
+.cliente-descripcion{
+    padding: 5px 20px;
+}

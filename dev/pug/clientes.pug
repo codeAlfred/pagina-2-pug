@@ -1,0 +1,22 @@
+extends ../template/template.pug
+
+block append config
+    -pagina_actual = "clientes";
+    -title_page = "Clientes";
+    
+block append bannerSecundario
+    .container.container-flex
+        h1.nosotros-titulo CLIENTES
+        
+        
+block contenido
+    section.clientes
+        .container.container-flex
+            each cli in clientes            
+                .cliente-descripcion.column-50
+                    h3.cliente-titulo #{cli}
+                    p.cliente-contenido Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero rerum praesentium necessitatibus incidunt, non earum cumque aliquid libero molestias rem delectus asperiores quo harum debitis maxime porro, laudantium nobis tempore!
+             
+                    
+                
+        
