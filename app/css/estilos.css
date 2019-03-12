@@ -94,9 +94,18 @@ h1, h2, h3, h4, h5, h6 {
 .banner-secundario {
   position: relative;
   z-index: -1;
-  height: 450px;
-  object-fit: cover;
-  opacity: .7; }
+  height: 500px; }
+  .banner-secundario::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    z-index: 1000; }
+  .banner-secundario img {
+    width: 100%;
+    height: 500px;
+    object-fit: cover; }
 
 /*-----------------------estilos del INDEX----------------------*/
 .inicio-servicios, .inicio-equipo, .inicio-clientes {
@@ -255,3 +264,21 @@ h1, h2, h3, h4, h5, h6 {
     color: #3B58B8; }
   .datos-persona spam {
     color: #3B58B8; }
+
+/*-------------------estilos de SERVICIOS-------------------*/
+.serviciosT {
+  width: 48%;
+  margin-bottom: 50px; }
+  .serviciosT .servicios1 {
+    display: flex;
+    flex-wrap: wrap; }
+    .serviciosT .servicios1 img {
+      height: 90px;
+      width: 90px; }
+    .serviciosT .servicios1 p {
+      color: #555;
+      font-size: 1.5em;
+      padding: 5px 10px; }
+  .serviciosT p {
+    color: #555;
+    padding: 5px 10px; }

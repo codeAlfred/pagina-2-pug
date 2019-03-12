@@ -1,0 +1,25 @@
+/*-------------------estilos de SERVICIOS-------------------*/
+.serviciosT{
+    width: 48%;    
+    margin-bottom: 50px;
+    & .servicios1{
+        display: flex;
+        flex-wrap: wrap;      
+        
+        & img{
+            height: 90px;
+            width: 90px;
+        }
+        & p{
+            color: $c_texto;
+            font-size: 1.5em;
+            padding: 5px 10px;
+        }
+    }
+    & p {
+        color: $c_texto;
+         padding: 5px 10px;
+    }
+
+}
+

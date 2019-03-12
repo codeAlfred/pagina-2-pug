@@ -16,7 +16,8 @@ html
                 include ../blocks/banner.pug
         block bannerSecundario
             if pagina_actual !== "inicio"
-                img.banner-secundario(src="img/"+pagina_actual+".jpeg")
+                section.banner-secundario
+                    img(src="img/"+pagina_actual+".jpeg")
             
         block contenido
         
